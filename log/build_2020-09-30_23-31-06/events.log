@@ -1,0 +1,112 @@
+[0.000000] (-) TimerEvent: {}
+[0.001004] (turtlesim) JobQueued: {'identifier': 'turtlesim', 'dependencies': OrderedDict()}
+[0.001096] (turtlesim) JobStarted: {'identifier': 'turtlesim'}
+[0.031337] (turtlesim) JobProgress: {'identifier': 'turtlesim', 'progress': 'cmake'}
+[0.032500] (turtlesim) Command: {'cmd': ['/usr/bin/cmake', '/home/son/Documents/ros2_mbrb_ws/src/ros_tutorials/turtlesim', '-DCMAKE_INSTALL_PREFIX=/home/son/Documents/ros2_mbrb_ws/install/turtlesim'], 'cwd': '/home/son/Documents/ros2_mbrb_ws/build/turtlesim', 'env': OrderedDict([('USER', 'son'), ('LANGUAGE', 'en_US:en'), ('LC_TIME', 'vi_VN'), ('TEXTDOMAIN', 'im-config'), ('OSPL_INFOFILE', '<stdout>'), ('XDG_SEAT', 'seat0'), ('SSH_AGENT_PID', '2958'), ('XDG_SESSION_TYPE', 'x11'), ('LD_LIBRARY_PATH', '/home/son/ros2_dashing/ros2-linux/opt/yaml_cpp_vendor/lib:/home/son/ros2_dashing/ros2-linux/opt/rviz_ogre_vendor/lib:/usr/lib:/home/son/ros2_dashing/ros2-linux/lib'), ('SHLVL', '1'), ('OLDPWD', '/home/son/Documents'), ('OSPL_URI', 'file:///home/son/ros2_dashing/ros2-linux/share/opensplice_cmake_module/config/ros_ospl.xml'), ('QT4_IM_MODULE', 'xim'), ('HOME', '/home/son'), ('DESKTOP_SESSION', 'ubuntu'), ('OSPL_VERBOSITY', '2'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('ROS_PYTHON_VERSION', '3'), ('LC_MONETARY', 'vi_VN'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('OSPL_TMPL_PATH', '/usr/etc/opensplice/idlpp'), ('COLORTERM', 'truecolor'), ('COLCON_PREFIX_PATH', '/home/son/ros2_dashing/ros2-linux'), ('IM_CONFIG_PHASE', '2'), ('ROS_DISTRO', 'dashing'), ('LOGNAME', 'son'), ('GTK_IM_MODULE', 'ibus'), ('DESKTOP_AUTOSTART_ID', '10dfdbc959f776cbf160143284170371100000028790007'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('PKG_CONFIG_PATH', '/home/son/ros2_dashing/ros2-linux/lib/x86_64-linux-gnu/pkgconfig:/home/son/ros2_dashing/ros2-linux/lib/pkgconfig'), ('USERNAME', 'son'), ('XDG_SESSION_ID', '2'), ('TERM', 'xterm-256color'), ('OSPL_ERRORFILE', '<stderr>'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('WINDOWPATH', '2'), ('PATH', '/home/son/ros2_dashing/ros2-linux/bin:/home/son/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('PAPERSIZE', 'a4'), ('SESSION_MANAGER', 'local/lvs:@/tmp/.ICE-unix/2879,unix/lvs:/tmp/.ICE-unix/2879'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/b5b62be5_81b7_4a34_859d_24861cff656c'), ('LC_ADDRESS', 'vi_VN'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('OSPL_HOME', '/usr'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'vi_VN'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XMODIFIERS', '@im=ibus'), ('GNOME_TERMINAL_SERVICE', ':1.460'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('AMENT_PREFIX_PATH', '/home/son/ros2_dashing/ros2-linux'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('LC_NAME', 'vi_VN'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LC_MEASUREMENT', 'vi_VN'), ('TEXTDOMAINDIR', '/usr/share/locale/'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('LC_IDENTIFICATION', 'vi_VN'), ('XDG_VTNR', '2'), ('QT_IM_MODULE', 'ibus'), ('LC_ALL', 'en_US.UTF-8'), ('PWD', '/home/son/Documents/ros2_mbrb_ws/build/turtlesim'), ('CLUTTER_IM_MODULE', 'xim'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('LC_NUMERIC', 'vi_VN'), ('PYTHONPATH', '/home/son/ros2_dashing/ros2-linux/lib/python3.6/site-packages'), ('LC_PAPER', 'vi_VN'), ('COLCON', '1'), ('VTE_VERSION', '5202'), ('CMAKE_PREFIX_PATH', '/home/son/ros2_dashing/ros2-linux')]), 'shell': False}
+[0.099449] (-) TimerEvent: {}
+[0.108236] (turtlesim) StdoutLine: {'line': b'-- The C compiler identification is GNU 7.5.0\n'}
+[0.173968] (turtlesim) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 7.5.0\n'}
+[0.177624] (turtlesim) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc\n'}
+[0.199558] (-) TimerEvent: {}
+[0.274046] (turtlesim) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc -- works\n'}
+[0.275168] (turtlesim) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[0.299681] (-) TimerEvent: {}
+[0.372812] (turtlesim) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[0.377994] (turtlesim) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[0.399801] (-) TimerEvent: {}
+[0.501655] (-) TimerEvent: {}
+[0.601990] (-) TimerEvent: {}
+[0.652684] (turtlesim) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[0.656254] (turtlesim) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++\n'}
+[0.702105] (-) TimerEvent: {}
+[0.780883] (turtlesim) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ -- works\n'}
+[0.782649] (turtlesim) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[0.802202] (-) TimerEvent: {}
+[0.902518] (-) TimerEvent: {}
+[0.902862] (turtlesim) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[0.907198] (turtlesim) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[1.002609] (-) TimerEvent: {}
+[1.104048] (-) TimerEvent: {}
+[1.204402] (-) TimerEvent: {}
+[1.304756] (-) TimerEvent: {}
+[1.405118] (-) TimerEvent: {}
+[1.423218] (turtlesim) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[1.425515] (turtlesim) StdoutLine: {'line': b'-- Found ament_cmake: 0.7.5 (/home/son/ros2_dashing/ros2-linux/share/ament_cmake/cmake)\n'}
+[1.463102] (turtlesim) StdoutLine: {'line': b'-- Found PythonInterp: /usr/bin/python3 (found suitable version "3.6.9", minimum required is "3") \n'}
+[1.463329] (turtlesim) StdoutLine: {'line': b'-- Using PYTHON_EXECUTABLE: /usr/bin/python3\n'}
+[1.505226] (-) TimerEvent: {}
+[1.605601] (-) TimerEvent: {}
+[1.705939] (-) TimerEvent: {}
+[1.740665] (turtlesim) StdoutLine: {'line': b'-- Found ament_index_cpp: 0.7.2 (/home/son/ros2_dashing/ros2-linux/share/ament_index_cpp/cmake)\n'}
+[1.747291] (turtlesim) StdoutLine: {'line': b'-- Found geometry_msgs: 0.7.0 (/home/son/ros2_dashing/ros2-linux/share/geometry_msgs/cmake)\n'}
+[1.772558] (turtlesim) StdoutLine: {'line': b'-- Found rosidl_adapter: 0.7.9 (/home/son/ros2_dashing/ros2-linux/share/rosidl_adapter/cmake)\n'}
+[1.806041] (-) TimerEvent: {}
+[1.872752] (turtlesim) StdoutLine: {'line': b'-- Found rclcpp: 0.7.14 (/home/son/ros2_dashing/ros2-linux/share/rclcpp/cmake)\n'}
+[1.895603] (turtlesim) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 0.7.2 (/home/son/ros2_dashing/ros2-linux/share/rmw_implementation_cmake/cmake)\n'}
+[1.897991] (turtlesim) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[1.899237] (turtlesim) StdoutLine: {'line': b'-- Looking for pthread.h\n'}
+[1.906177] (-) TimerEvent: {}
+[1.993445] (turtlesim) StdoutLine: {'line': b'-- Looking for pthread.h - found\n'}
+[1.994045] (turtlesim) StdoutLine: {'line': b'-- Looking for pthread_create\n'}
+[2.006302] (-) TimerEvent: {}
+[2.104286] (turtlesim) StdoutLine: {'line': b'-- Looking for pthread_create - not found\n'}
+[2.104540] (turtlesim) StdoutLine: {'line': b'-- Looking for pthread_create in pthreads\n'}
+[2.106390] (-) TimerEvent: {}
+[2.174974] (turtlesim) StdoutLine: {'line': b'-- Looking for pthread_create in pthreads - not found\n'}
+[2.175214] (turtlesim) StdoutLine: {'line': b'-- Looking for pthread_create in pthread\n'}
+[2.206568] (-) TimerEvent: {}
+[2.281262] (turtlesim) StdoutLine: {'line': b'-- Looking for pthread_create in pthread - found\n'}
+[2.282769] (turtlesim) StdoutLine: {'line': b'-- Found Threads: TRUE  \n'}
+[2.306681] (-) TimerEvent: {}
+[2.316069] (turtlesim) StdoutLine: {'line': b'-- Found rclcpp_action: 0.7.14 (/home/son/ros2_dashing/ros2-linux/share/rclcpp_action/cmake)\n'}
+[2.381858] (turtlesim) StdoutLine: {'line': b'-- Found rosidl_default_generators: 0.7.0 (/home/son/ros2_dashing/ros2-linux/share/rosidl_default_generators/cmake)\n'}
+[2.399236] (turtlesim) StdoutLine: {'line': b'-- Could not find RTI Connext - skipping rosidl_typesupport_connext_c\n'}
+[2.406785] (-) TimerEvent: {}
+[2.407107] (turtlesim) StdoutLine: {'line': b'-- Could not find RTI Connext - skipping rosidl_typesupport_connext_cpp\n'}
+[2.481794] (turtlesim) StdoutLine: {'line': b'-- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "1.1.1") \n'}
+[2.506897] (-) TimerEvent: {}
+[2.512206] (turtlesim) StdoutLine: {'line': b'-- Found FastRTPS: /home/son/ros2_dashing/ros2-linux/include  \n'}
+[2.600611] (turtlesim) StdoutLine: {'line': b'-- Could not find PrismTech OpenSplice - skipping rosidl_typesupport_opensplice_c\n'}
+[2.605774] (turtlesim) StdoutLine: {'line': b'-- Could not find PrismTech OpenSplice - skipping rosidl_typesupport_opensplice_cpp\n'}
+[2.606998] (-) TimerEvent: {}
+[2.631784] (turtlesim) StdoutLine: {'line': b'-- Found std_srvs: 0.7.0 (/home/son/ros2_dashing/ros2-linux/share/std_srvs/cmake)\n'}
+[2.670417] (turtlesim) StdoutLine: {'line': b'-- Found PythonInterp: /usr/bin/python3 (found version "3.6.9") \n'}
+[2.707108] (-) TimerEvent: {}
+[2.807432] (-) TimerEvent: {}
+[2.907741] (-) TimerEvent: {}
+[2.970326] (turtlesim) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_connext_c;rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c;rosidl_typesupport_opensplice_c\n'}
+[2.987377] (turtlesim) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_connext_cpp;rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp;rosidl_typesupport_opensplice_cpp\n'}
+[3.007862] (-) TimerEvent: {}
+[3.108204] (-) TimerEvent: {}
+[3.188306] (turtlesim) StdoutLine: {'line': b'-- Found PythonInterp: /usr/bin/python3 (found suitable version "3.6.9", minimum required is "3.5") \n'}
+[3.189870] (turtlesim) StdoutLine: {'line': b'-- Found python_cmake_module: 0.7.10 (/home/son/ros2_dashing/ros2-linux/share/python_cmake_module/cmake)\n'}
+[3.208333] (-) TimerEvent: {}
+[3.229420] (turtlesim) StdoutLine: {'line': b'-- Found PythonLibs: /usr/lib/x86_64-linux-gnu/libpython3.6m.so (found suitable version "3.6.9", minimum required is "3.5") \n'}
+[3.229769] (turtlesim) StdoutLine: {'line': b'-- Using PYTHON_EXECUTABLE: /usr/bin/python3\n'}
+[3.229936] (turtlesim) StdoutLine: {'line': b'-- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.6m\n'}
+[3.230074] (turtlesim) StdoutLine: {'line': b'-- Using PYTHON_LIBRARIES: /usr/lib/x86_64-linux-gnu/libpython3.6m.so\n'}
+[3.272899] (turtlesim) StdoutLine: {'line': b'-- Found PythonExtra: .so  \n'}
+[3.283605] (turtlesim) StdoutLine: {'line': b'-- Could not find RTI Connext - skipping rmw_connext_shared_cpp\n'}
+[3.288783] (turtlesim) StderrLine: {'line': b'CMake Error at /home/son/ros2_dashing/ros2-linux/share/rmw_connext_cpp/cmake/ament_cmake_export_dependencies-extras.cmake:21 (find_package):\n'}
+[3.289129] (turtlesim) StderrLine: {'line': b'  Found package configuration file:\n'}
+[3.289302] (turtlesim) StderrLine: {'line': b'\n'}
+[3.289441] (turtlesim) StderrLine: {'line': b'    /home/son/ros2_dashing/ros2-linux/share/rmw_connext_shared_cpp/cmake/rmw_connext_shared_cppConfig.cmake\n'}
+[3.289584] (turtlesim) StderrLine: {'line': b'\n'}
+[3.289711] (turtlesim) StderrLine: {'line': b'  but it set rmw_connext_shared_cpp_FOUND to FALSE so package\n'}
+[3.289843] (turtlesim) StderrLine: {'line': b'  "rmw_connext_shared_cpp" is considered to be NOT FOUND.\n'}
+[3.289973] (turtlesim) StderrLine: {'line': b'Call Stack (most recent call first):\n'}
+[3.290098] (turtlesim) StderrLine: {'line': b'  /home/son/ros2_dashing/ros2-linux/share/rmw_connext_cpp/cmake/rmw_connext_cppConfig.cmake:38 (include)\n'}
+[3.290224] (turtlesim) StderrLine: {'line': b'  /home/son/ros2_dashing/ros2-linux/share/rmw_implementation_cmake/cmake/call_for_each_rmw_implementation.cmake:61 (find_package)\n'}
+[3.290361] (turtlesim) StderrLine: {'line': b'  /home/son/ros2_dashing/ros2-linux/share/rosidl_generator_py/cmake/rosidl_generator_py_get_typesupports.cmake:26 (call_for_each_rmw_implementation)\n'}
+[3.290485] (turtlesim) StderrLine: {'line': b'  /home/son/ros2_dashing/ros2-linux/share/rosidl_generator_py/cmake/rosidl_generator_py_generate_interfaces.cmake:27 (rosidl_generator_py_get_typesupports)\n'}
+[3.290648] (turtlesim) StderrLine: {'line': b'  /home/son/ros2_dashing/ros2-linux/share/ament_cmake_core/cmake/core/ament_execute_extensions.cmake:48 (include)\n'}
+[3.290775] (turtlesim) StderrLine: {'line': b'  /home/son/ros2_dashing/ros2-linux/share/rosidl_cmake/cmake/rosidl_generate_interfaces.cmake:286 (ament_execute_extensions)\n'}
+[3.290898] (turtlesim) StderrLine: {'line': b'  CMakeLists.txt:24 (rosidl_generate_interfaces)\n'}
+[3.291021] (turtlesim) StderrLine: {'line': b'\n'}
+[3.291142] (turtlesim) StderrLine: {'line': b'\n'}
+[3.292888] (turtlesim) StdoutLine: {'line': b'-- Configuring incomplete, errors occurred!\n'}
+[3.293163] (turtlesim) StdoutLine: {'line': b'See also "/home/son/Documents/ros2_mbrb_ws/build/turtlesim/CMakeFiles/CMakeOutput.log".\n'}
+[3.293319] (turtlesim) StdoutLine: {'line': b'See also "/home/son/Documents/ros2_mbrb_ws/build/turtlesim/CMakeFiles/CMakeError.log".\n'}
+[3.299718] (turtlesim) CommandEnded: {'returncode': 1}
+[3.300929] (turtlesim) JobEnded: {'identifier': 'turtlesim', 'rc': 1}
+[3.302487] (-) EventReactorShutdown: {}

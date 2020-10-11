@@ -1,0 +1,2 @@
+Invoking command in '/home/son/Documents/ros2_mbrb_ws/build/turtlesim': /usr/bin/cmake /home/son/Documents/ros2_mbrb_ws/src/ros_tutorials/turtlesim -DCMAKE_INSTALL_PREFIX=/home/son/Documents/ros2_mbrb_ws/install/turtlesim
+Invoked command in '/home/son/Documents/ros2_mbrb_ws/build/turtlesim' returned '1': /usr/bin/cmake /home/son/Documents/ros2_mbrb_ws/src/ros_tutorials/turtlesim -DCMAKE_INSTALL_PREFIX=/home/son/Documents/ros2_mbrb_ws/install/turtlesim

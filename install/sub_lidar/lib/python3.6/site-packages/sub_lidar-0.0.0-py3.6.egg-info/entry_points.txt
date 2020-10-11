@@ -1,0 +1,3 @@
+[console_scripts]
+sub_lidar = sub_lidar.sub_lidar:main
+

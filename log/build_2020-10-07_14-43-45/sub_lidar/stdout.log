@@ -1,0 +1,23 @@
+running egg_info
+writing /home/son/Documents/ros2_mbrb_ws/build/sub_lidar/sub_lidar.egg-info/PKG-INFO
+writing dependency_links to /home/son/Documents/ros2_mbrb_ws/build/sub_lidar/sub_lidar.egg-info/dependency_links.txt
+writing entry points to /home/son/Documents/ros2_mbrb_ws/build/sub_lidar/sub_lidar.egg-info/entry_points.txt
+writing requirements to /home/son/Documents/ros2_mbrb_ws/build/sub_lidar/sub_lidar.egg-info/requires.txt
+writing top-level names to /home/son/Documents/ros2_mbrb_ws/build/sub_lidar/sub_lidar.egg-info/top_level.txt
+reading manifest file '/home/son/Documents/ros2_mbrb_ws/build/sub_lidar/sub_lidar.egg-info/SOURCES.txt'
+writing manifest file '/home/son/Documents/ros2_mbrb_ws/build/sub_lidar/sub_lidar.egg-info/SOURCES.txt'
+running build
+running build_py
+copying sub_lidar/sub_lidar.py -> /home/son/Documents/ros2_mbrb_ws/build/sub_lidar/build/lib/sub_lidar
+running install
+running install_lib
+copying /home/son/Documents/ros2_mbrb_ws/build/sub_lidar/build/lib/sub_lidar/sub_lidar.py -> /home/son/Documents/ros2_mbrb_ws/install/sub_lidar/lib/python3.6/site-packages/sub_lidar
+byte-compiling /home/son/Documents/ros2_mbrb_ws/install/sub_lidar/lib/python3.6/site-packages/sub_lidar/sub_lidar.py to sub_lidar.cpython-36.pyc
+running install_data
+copying package.xml -> /home/son/Documents/ros2_mbrb_ws/install/sub_lidar/share/sub_lidar
+running install_egg_info
+removing '/home/son/Documents/ros2_mbrb_ws/install/sub_lidar/lib/python3.6/site-packages/sub_lidar-0.0.0-py3.6.egg-info' (and everything under it)
+Copying /home/son/Documents/ros2_mbrb_ws/build/sub_lidar/sub_lidar.egg-info to /home/son/Documents/ros2_mbrb_ws/install/sub_lidar/lib/python3.6/site-packages/sub_lidar-0.0.0-py3.6.egg-info
+running install_scripts
+Installing sub_lidar script to /home/son/Documents/ros2_mbrb_ws/install/sub_lidar/lib/sub_lidar
+writing list of installed files to '/home/son/Documents/ros2_mbrb_ws/build/sub_lidar/install.log'

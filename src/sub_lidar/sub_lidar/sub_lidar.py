@@ -8,13 +8,12 @@ import os
 import struct
 
 
-
 #-----------------------TCP/IP---------------------------
 def connection(socket):
     while True:
         conn, address = socket.accept()
         if address:
-            pr  int("conn: {} \naddress: {}".format(conn, address))
+            print("conn: {} \naddress: {}".format(conn, address))
             break
         print("connecting...\n")
         time.sleep(2)
@@ -56,10 +55,21 @@ def main():
         data=conn.recv(1500)
         if not data: continue
         out = []
-        for x in  range(int(len(data)/4)):
+        for x in range(360):
             xx = struct.unpack('<f', data[x*4:x*4+4])
             out.append(round(xx[0], 3))
-        print(out)
+        
+        # print(data[360*4-1:360*4+10])
+        stm = []
+        stm.append(int.from_bytes(data[360*4:360*4+2], "big"))
+        stm.append(int.from_bytes(data[360*4+2:360*4+4], "big"))
+        stm.append(int.from_bytes(data[360*3+4:360*4+7], "big"))
+        stm.append(int.from_bytes(data[360*6+7:360*4+10], "big", signed=True))
+        # stm.append(data[360*4+10])
+        print(stm)
+
+
+        # print(out)
         # print(struct.unpack('<f', data))   #little endian
 
 if __name__ == '__main__':

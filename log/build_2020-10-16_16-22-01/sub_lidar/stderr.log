@@ -1,0 +1,5 @@
+  File "/home/son/Documents/ros2_mbrb_ws/install/sub_lidar/lib/python3.6/site-packages/sub_lidar/sub_lidar.py", line 16
+    pr  int("conn: {} \naddress: {}".format(conn, address))
+          ^
+SyntaxError: invalid syntax
+

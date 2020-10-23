@@ -1,0 +1,29 @@
+[0.804s] Invoking command in '/home/son/Documents/ros2_mbrb_ws/src/sub_lidar': PYTHONPATH=/home/son/Documents/ros2_mbrb_ws/install/sub_lidar/lib/python3.6/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base /home/son/Documents/ros2_mbrb_ws/build/sub_lidar build --build-base /home/son/Documents/ros2_mbrb_ws/build/sub_lidar/build install --prefix /home/son/Documents/ros2_mbrb_ws/install/sub_lidar --record /home/son/Documents/ros2_mbrb_ws/build/sub_lidar/install.log --single-version-externally-managed
+[1.500s] running egg_info
+[1.501s] writing /home/son/Documents/ros2_mbrb_ws/build/sub_lidar/sub_lidar.egg-info/PKG-INFO
+[1.501s] writing dependency_links to /home/son/Documents/ros2_mbrb_ws/build/sub_lidar/sub_lidar.egg-info/dependency_links.txt
+[1.501s] writing entry points to /home/son/Documents/ros2_mbrb_ws/build/sub_lidar/sub_lidar.egg-info/entry_points.txt
+[1.501s] writing requirements to /home/son/Documents/ros2_mbrb_ws/build/sub_lidar/sub_lidar.egg-info/requires.txt
+[1.501s] writing top-level names to /home/son/Documents/ros2_mbrb_ws/build/sub_lidar/sub_lidar.egg-info/top_level.txt
+[1.552s] reading manifest file '/home/son/Documents/ros2_mbrb_ws/build/sub_lidar/sub_lidar.egg-info/SOURCES.txt'
+[1.553s] writing manifest file '/home/son/Documents/ros2_mbrb_ws/build/sub_lidar/sub_lidar.egg-info/SOURCES.txt'
+[1.553s] running build
+[1.554s] running build_py
+[1.554s] copying sub_lidar/sub_lidar.py -> /home/son/Documents/ros2_mbrb_ws/build/sub_lidar/build/lib/sub_lidar
+[1.554s] running install
+[1.554s] running install_lib
+[1.555s] copying /home/son/Documents/ros2_mbrb_ws/build/sub_lidar/build/lib/sub_lidar/sub_lidar.py -> /home/son/Documents/ros2_mbrb_ws/install/sub_lidar/lib/python3.6/site-packages/sub_lidar
+[1.558s] byte-compiling /home/son/Documents/ros2_mbrb_ws/install/sub_lidar/lib/python3.6/site-packages/sub_lidar/sub_lidar.py to sub_lidar.cpython-36.pyc
+[1.559s]   File "/home/son/Documents/ros2_mbrb_ws/install/sub_lidar/lib/python3.6/site-packages/sub_lidar/sub_lidar.py", line 17
+[1.559s]     pr  int("conn: {} \naddress: {}".format(conn, address))
+[1.559s]           ^
+[1.559s] SyntaxError: invalid syntax
+[1.559s] 
+[1.559s] running install_data
+[1.560s] running install_egg_info
+[1.564s] removing '/home/son/Documents/ros2_mbrb_ws/install/sub_lidar/lib/python3.6/site-packages/sub_lidar-0.0.0-py3.6.egg-info' (and everything under it)
+[1.564s] Copying /home/son/Documents/ros2_mbrb_ws/build/sub_lidar/sub_lidar.egg-info to /home/son/Documents/ros2_mbrb_ws/install/sub_lidar/lib/python3.6/site-packages/sub_lidar-0.0.0-py3.6.egg-info
+[1.565s] running install_scripts
+[1.600s] Installing sub_lidar script to /home/son/Documents/ros2_mbrb_ws/install/sub_lidar/lib/sub_lidar
+[1.601s] writing list of installed files to '/home/son/Documents/ros2_mbrb_ws/build/sub_lidar/install.log'
+[1.660s] Invoked command in '/home/son/Documents/ros2_mbrb_ws/src/sub_lidar' returned '0': PYTHONPATH=/home/son/Documents/ros2_mbrb_ws/install/sub_lidar/lib/python3.6/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base /home/son/Documents/ros2_mbrb_ws/build/sub_lidar build --build-base /home/son/Documents/ros2_mbrb_ws/build/sub_lidar/build install --prefix /home/son/Documents/ros2_mbrb_ws/install/sub_lidar --record /home/son/Documents/ros2_mbrb_ws/build/sub_lidar/install.log --single-version-externally-managed

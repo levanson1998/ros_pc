@@ -22,7 +22,7 @@ def createSocket():
     # Server
     # Create new server socket
 
-    HOST = '192.168.0.105' #socket.gethostname()
+    HOST = '192.168.0.110' #socket.gethostname()
     PORT = 64405
     os.system("fuser -k {}/tcp".format(PORT))
     time.sleep(0.5)
@@ -55,20 +55,22 @@ def main():
         data=conn.recv(1500)
         if not data: continue
         out = []
+        os.system('clear')
         if len(data)==1452:      
             for x in range(360):
                 xx = struct.unpack('<f', data[x*4:x*4+4])
                 out.append(round(xx[0], 3))
 
-            print(data[360*4:360*4+11])
+            # print(data[360*4:360*4+11])
             stm = []
             stm.append(int.from_bytes(data[360*4:360*4+2], "big"))
             stm.append(int.from_bytes(data[360*4+2:360*4+4], "big"))
             stm.append(int.from_bytes(data[360*4+4:360*4+7], "big")/1000)
             stm.append(int.from_bytes(data[360*4+7:360*4+10], "big", signed=True)/1000)
-            # stm.append(data[360*4+10])
+            stm.append(data[360*4+10])
             print(stm)
         else: print("error !!!!!")
+        
 
 
         # print(out)
